@@ -1,0 +1,58 @@
+{{/* layouts/partials/sections/experience.html Override */}}
+{{/* This file displays experience items sequentially without tabs */}}
+
+{{ if .Site.Params.experience.enable | default false }}
+<section id="experience" class="py-5">
+  <div class="container">
+    <h3 class="text-center">{{ .Site.Params.experience.title | default "Experience" }}</h3>
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+        <div class="experience-container px-3 pt-2">
+
+          {{ range $index, $element := .Site.Params.experience.items }}
+            {{/* --- Start of individual job item --- */}}
+            <div class="experience-item mb-4"> {{/* Added margin-bottom */}}
+
+              {{/* Job Title */}}
+              <h4 class="h4">{{ .job }}</h4>
+
+              {{/* Company and Date Info */}}
+              <p class="text-muted mb-2"> {{/* Use text-muted for less emphasis */}}
+                {{ if .companyUrl }}
+                  <a href="{{ .companyUrl }}" target="_blank" rel="noopener noreferrer">{{ .company }}</a>
+                {{ else }}
+                  {{ .company }}
+                {{ end }}
+                <span class="mx-2">|</span> {{/* Separator */}}
+                <small>{{ .date }}</small>
+              </p>
+
+              {{/* Job Description/Content (processed as Markdown) */}}
+              <div class="experience-content">
+                {{ .content | markdownify }}
+              </div>
+
+              {{/* Optional Featured Link Button */}}
+              {{ if .featuredLink.enable | default false }}
+                <div class="py-2 featuredLink">
+                  <a class="p-2 px-4 btn btn-outline-primary btn-sm" href={{ .featuredLink.url | default "#" }} target="_blank" rel="noopener noreferrer">
+                    {{ .featuredLink.name | default "Featured Link" }}
+                  </a>
+                </div>
+              {{ end }}
+
+              {{/* Add separator between jobs (optional) */}}
+              {{ if ne $index (sub (len $.Site.Params.experience.items) 1) }} {{/* Don't add after last item */}}
+                <hr class="my-4">
+              {{ end }}
+
+            </div>
+            {{/* --- End of individual job item --- */}}
+          {{ end }} {{/* End range loop */}}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
