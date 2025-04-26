@@ -249,7 +249,7 @@ params:
   # --- Achievements Section ---
   achievements:
     enable: true # Set to false if you don't want this section
-    # title: "Achievements & Activities" # Uncomment to customize title
+     title: "Leadership and Honors" # Uncomment to customize title
     items: # Your achievements/activities
       - title: "SNHU President's List"
         content: "Achieved President's List honors for academic excellence."
