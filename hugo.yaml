@@ -1,0 +1,365 @@
+# --- Basic Site Settings ---
+baseURL: "https://jswindell.dev/"
+languageCode: "en-us"
+title: "John Swindell - Portfolio"
+theme: hugo-profile
+
+# --- Output Formats ---
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+# --- Generate robots.txt ---
+enableRobotsTXT: true
+
+# --- Optional Services (Commented Out) ---
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID # Uncomment and add your Google Analytics ID if you use it
+  #disqus:
+    #shortname: your-disqus-shortname # Uncomment and add your Disqus shortname if you use it
+
+# --- Pagination for Lists ---
+pagination:
+  pagerSize: 3 # Number of posts per page
+
+# --- Markdown Renderer ---
+markup:
+  goldmark:
+    renderer:
+      # Allows raw HTML in Markdown. Use with care.
+      unsafe: true
+
+# --- Main Navigation Menu ---
+Menus:
+#  main:
+    # - identifier: blog # Uncomment if you add a Blog section later
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery # Commented out as requested
+    #   name: Gallery
+    #   title: Gallery
+    #   url: /gallery
+    #   weight: 2
+    # --- Dropdown Examples (Commented Out) ---
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+# --- Theme Parameters (Main Content Configuration) ---
+params:
+  title: "John Swindell" # Site title used in some theme elements
+  description: "Portfolio website for John Swindell, an aspiring developer and current Computer Science student." # Meta description for SEO
+  favicon: "/fav.png" # Path to favicon in static/ folder
+
+  # --- CDN Settings (Keep false unless needed) ---
+  useBootstrapCDN: false
+
+  # --- Cloudinary Settings (Keep commented unless needed) ---
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # --- MathJax Settings (Keep false unless needed) ---
+  mathjax: false
+
+  # --- Homepage Animation ---
+  animate: true # Enable fade-in animations
+
+  # --- Theme Appearance ---
+  theme:
+    # disableThemeToggle: true # Uncomment to hide light/dark mode switch
+    # defaultTheme: "dark" # Or "light". Uncomment to force a theme
+
+  # --- Font Settings (Keep defaults unless desired) ---
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  # --- Color Customization (Keep commented unless desired) ---
+  # color:
+  #   ... # See theme docs for details
+
+  # --- Navbar Settings ---
+  navbar:
+    align: ms-auto # Alignment of menu items (ms-auto = right)
+    brandName: "John Swindell" # << UPDATED Name shown in navbar
+    disableSearch: false # Set true to hide search
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false # Adds a line below navbar if true
+    menus: # Controls which sections automatically appear as nav links
+      disableAbout: false # Keep false to show About link
+      disableExperience: false # Keep false to show Experience link
+      disableEducation: false # Keep false to show Education link
+      disableProjects: false # Keep false to show Projects link
+      disableAchievements: false # Keep false to show Achievements link
+      disableContact: false # Keep false to show Contact link
+
+  # --- Hero Section (Top of Homepage) ---
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "John Swindell."
+    subtitle: "I am a Computer Science student at SNHU"
+    content: "I am a passionate, aspiring developer who is always willing and excited to learn new things."
+    # IMPORTANT: Ensure 'hero.png' exists in 'static/images/' folder
+    image: "/images/hero.png"
+    bottomImage:
+      enable: true # The wavy SVG divider
+    button: # Resume Button
+      enable: true
+      name: "Resume"
+      # IMPORTANT: Ensure 'Johnanthan Swindell Resume.pdf' exists in 'static/' folder
+      # Consider renaming PDF without spaces: Johnanthan_Swindell_Resume.pdf and update URL below
+      url: "/Johnanthan Swindell Resume.pdf"
+      download: true # Force download
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons: # Font Awesome brand icons (find codes at fontawesome.com)
+        - icon: fab fa-linkedin
+          url: "https://www.linkedin.com/in/john-swindell/" # Your LinkedIn
+        - icon: fab fa-github
+          url: "https://github.com/John-Swindell/" # Your GitHub
+        # Add more if needed:
+        # - icon: fab fa-x-twitter
+        #   url: "https://twitter.com/your_handle"
+      #customIcons: # Use only if you have custom icon image files in static/
+        # - icon: /path/to/icon.png
+        #   url: "link-for-icon"
+
+  # --- About Section ---
+  about:
+    enable: true
+    title: "About Me" # Or customize section title
+    # IMPORTANT: Ensure 'me.png' exists in 'static/images/' folder
+    image: "/images/me.png"
+    content: |- # Multi-line content (indentation matters)
+      I am John Swindell, a Computer Science student at SNHU with a strong drive to learn and build innovative solutions.
+      I am currently working on a project that will store my scholastic infomation in a SQLite database I have created in python.
+#      [Consider adding another sentence or two about your interests or goals here.]
+    skills:
+      enable: true
+      title: "Here are a few technologies I am both learning and using:" # Or customize title
+      items: # Your skills list
+        - "Python"
+        - "Java"
+        - "Git & Github"
+        - "PyTorch"
+        - "SQLite/MySQL"
+        - "JavaScript"
+        - "Android Studio"
+        - "BeautifulSoup"
+        - "C#" # Added from resume
+        - "HTML & CSS" # Added from resume
+        # Add/remove as appropriate
+
+  # --- Experience Section ---
+  experience:
+    enable: true # Set to false if you have no experience to show
+    # title: "Where I've Worked" # Uncomment to customize title
+    items: # Your work experience (from resume)
+      - job: "Google Search Quality Rater"
+        company: "RWS Group Ltd."
+        # companyUrl: "" # Add if RWS Group has a relevant URL
+        date: "October 2024 - January 2025"
+        # featuredLink: # Optional link if relevant
+        #   enable: true
+        #   name: "View Project/Details"
+        #   url: "..."
+        content: | # Use |- for multi-line. Indentation matters.
+          - Worked on training and optimizing search algorithms on evolving search patterns and user behavior trends.
+          - Maintained and ensured high levels of accuracy and consistency in evaluating search engine algorithm outputs.
+          - Provided insights to improve search engine optimization strategies, content quality, and overall user experience.
+
+      - job: "Senior Server Administrator"
+        company: "Repulsion Ltd."
+        # companyUrl: "" # Add if relevant
+        date: "October 2021 - October 2023"
+        # featuredLink: # Optional link if relevant
+        #   enable: true
+        #   name: "View Details"
+        #   url: "..."
+        content: | # Use |- for multi-line. Indentation matters.
+          - Promoted to Senior Server Administrator in the first year for demonstrating technical expertise and leadership.
+          - Managed and optimized 16 servers across multiple regions, improving performance and reducing downtime.
+          - Utilized Linux and Pterodactyl to maintain server infrastructure, troubleshooting issues and optimizing code.
+          - Collaborated with development teams to debug and optimize C# game plugins, enhancing user experience.
+          - Acted as a key liaison for customer issues, ensuring satisfaction through problem resolution and communication.
+      - job: "Server Administrator"
+        company: "Rustynation LLC."
+        # companyUrl: "" # Add if relevant
+        date: "August 2020 - October 2021"
+        # featuredLink: # Optional link if relevant
+        #   enable: true
+        #   name: "View Details"
+        #   url: "..."
+        content: | # Use |- for multi-line. Indentation matters.
+          - Developed and maintained server infrastructure, including player data analysis using Arkan and Battlemetrics.
+          - Conducted quality assurance tests on server performance and user interactions, identifying and resolving issues.
+          - Composed public announcements and events for community engagement via Discord and website updates.
+
+# --- Education Section ---
+  education:
+    enable: true
+    # title: "My Education" # Uncomment to customize title
+    index: false # Keep this false
+    items: # Your education
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "Southern New Hampshire University"
+          url: "https://www.snhu.edu/" # Optional school URL
+        date: "Expected: May 2026" # Your expected graduation
+        GPA: "4.0 / 4.0" # Your GPA
+        content: |- # Use |- for multi-line. Indentation matters.
+          - SNHU President's List: 2024 - 2025
+          # Relevant Coursework:
+          - **Applied Statistics for STEM:** Analyzed large datasets with Pandas, NumPy, and SciPy to identify trends.
+          - **Structured Database Environments:** Designed a relational database for simulated application using SQL/MySQL.
+          - **Foundation in Application Development:** Created an application prototype based on a simulated client request in Java.
+          - **Python Scripting:** Utilized various Python libraries to develop a game based on simulated client specifications.
+          - Discrete Mathematics
+          - Linear Algebra
+          - Calculus
+          - Object Oriented Programming
+          - Data Structures and Algorithms
+
+
+  # --- Achievements Section ---
+  achievements:
+    enable: true # Set to false if you don't want this section
+    # title: "Achievements & Activities" # Uncomment to customize title
+    items: # Your achievements/activities
+      - title: "SNHU President's List"
+        content: "Achieved President's List honors for academic excellence."
+        # url: "https://meritpages.com/Johnathan-Swindell/8555123" # Optional link
+        # image: /images/snhu_logo.png # Optional image if you have one
+      - title: "Computer Science Club Member"
+        content: "Actively contributing to club projects, assisting with tech-related events, engaging in coding competitions and collaborative development."
+        # url: "" # Optional link to club page if exists
+      - title: "Cyberleague Club Member"
+        content: "Collaborating with peers to analyze cybersecurity strategies and assisting in organizing club events and competitions."
+        # url: "" # Optional link to club page if exists
+
+  # --- Projects Section ---
+  projects:
+    enable: true
+    # title: "My Projects" # Uncomment to customize title
+    items: # Your projects
+      - title: "Relational Database Design (SQL Library)" # Updated title
+        content: "Designed and implemented a relational database schema using ERDs for a library system, applying SQL/MySQL concepts." # Updated description based on resume/context
+        # IMPORTANT: Ensure 'profile.png' exists in 'static/images/projects/' folder and shows your ERD
+        image: /images/projects/profile.png # Path to ERD screenshot
+        # featured: # Optional link (e.g., if there was a live demo or report)
+        #   name: View Details
+        #   link: "#"
+        badges: # Technologies used
+          - "SQL"
+          - "MySQL"
+          - "ERD"
+        # links: # Optional links (e.g., GitHub repo if applicable)
+        #   - icon: fab fa-github
+        #     url: "#"
+
+      # --- Commented out other project examples until ready ---
+      # - title: "Your Project Name 2"
+      #   content: "Description..."
+      #   image: /images/projects/your_project2_screenshot.jpg
+      #   badges:
+      #     - "Technology"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: "#"
+      # - title: "Your Project Name 3"
+      #   content: "Description..."
+      #   image: /images/projects/your_project3_screenshot.jpg
+      #   badges:
+      #     - "Technology"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: "#"
+
+  # --- Contact Section ---
+  contact:
+    enable: true
+    # title: "Get In Touch" # Uncomment to customize title
+    content: "My inbox is always open, so feel free to reach out if you have any questions!" # Your contact message
+    btnName: "Email Me" # Button text
+    btnLink: "mailto:jswindell28@gmail.com" # Your email address
+
+    # --- Formspree Contact Form (Optional - Keep commented unless set up) ---
+    # formspree:
+    #   enable: true # Set true to use form instead of mailto button
+    #   formId: "your_formspree_id" # Get ID from formspree.io
+    #   emailCaption: "Your Email:" # Customize form labels if needed
+    #   messageCaption: "Your Message:"
+    #   messageRows: 5
+
+  # --- Footer Section ---
+  footer:
+    recentPosts: # Shows recent blog posts in footer
+      path: "blogs" # Assumes blog posts are in content/blogs/
+      count: 3 # Number of posts to show
+      title: "Recent Posts"
+      enable: false # << Disabled as you don't have blog section active yet
+      disableFeaturedImage: false
+    socialNetworks: # Footer social links
+      github: "https://github.com/John-Swindell/" # Your GitHub
+      linkedin: "https://www.linkedin.com/in/john-swindell/" # Your LinkedIn
+      # twitter: "" # Add other links if desired
+      # instagram: ""
+      # facebook: ""
+
+  # --- List Page Settings (e.g., /blogs) ---
+  listPages:
+    disableFeaturedImage: false # Show featured images on list pages
+
+  # --- Single Page Settings (e.g., individual blog post) ---
+  singlePages:
+    socialShare: true # Enable social share buttons
+    readTime:
+      enable: true # Show estimated reading time
+      content: "min read"
+    scrollprogress:
+      enable: true # Show reading progress bar
+    tags:
+      openInNewTab: true # Open tag links in new tab
+
+  # --- Translation Settings (Keep defaults for English) ---
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved" # Change if needed
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  # --- Date Formatting (Keep defaults unless needed) ---
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  # --- Custom Scripts (Keep commented unless needed) ---
+  #customScripts: -| # Add scripts just before </body>
+  #  <script type="text/javascript"></script>
