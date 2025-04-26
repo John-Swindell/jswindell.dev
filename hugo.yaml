@@ -239,11 +239,11 @@ params:
           - **Structured Database Environments:** Designed a relational database for simulated application using SQL/MySQL.
           - **Foundation in Application Development:** Created an application prototype based on a simulated client request in Java.
           - **Python Scripting:** Utilized various Python libraries to develop a game based on simulated client specifications.
-          - Discrete Mathematics
-          - Linear Algebra
-          - Calculus
-          - Object Oriented Programming
-          - Data Structures and Algorithms
+          - **Discrete Mathematics:** Explored logic, set theory, graph theory, and proof techniques essential for algorithm analysis.
+          - **Linear Algebra:** Applied concepts of vectors, matrices, and linear transformations relevant to data science and computer graphics.
+          - **Calculus:** Mastered differential and integral calculus, providing foundational mathematical tools for modeling and optimization.
+          - **Object Oriented Programming:** Implemented core OOP principles (encapsulation, inheritance, polymorphism) to build modular software components (likely using Java/Python).
+          - **Data Structures and Algorithms:** Analyzed, implemented, and compared fundamental data structures and algorithms for efficient problem-solving.
 
 
   # --- Achievements Section ---
