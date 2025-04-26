@@ -1,6 +1,6 @@
 # John Swindell's Portfolio Website Source
 
-This repository contains the source code for my personal portfolio website, built using the Hugo static site generator.
+This repository contains the source code for my personal portfolio website, built using the Hugo SSG.
 
 **Live Site:** [**https://jswindell.dev**](https://jswindell.dev)
 
