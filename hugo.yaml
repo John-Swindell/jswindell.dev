@@ -104,7 +104,7 @@ params:
   navbar:
     align: ms-auto # Alignment of menu items (ms-auto = right)
     brandName: "John Swindell" # << UPDATED Name shown in navbar
-    disableSearch: false # Set true to hide search
+    disableSearch: true # Set true to hide search / set to false to bring back
     stickyNavBar:
       enable : true
       showOnScrollUp : true
