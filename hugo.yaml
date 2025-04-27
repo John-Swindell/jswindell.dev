@@ -242,7 +242,7 @@ params:
           - **Discrete Mathematics:** Explored logic, set theory, graph theory, and proof techniques essential for algorithm analysis.
           - **Linear Algebra:** Applied concepts of vectors, matrices, and linear transformations relevant to data science and computer graphics.
           - **Calculus:** Utilized differential and integral calculus, providing foundational mathematical tools for modeling and optimization.
-          - **Object Oriented Programming:** Implemented core OOP principles (encapsulation, inheritance, polymorphism) to build modular software components Java/Python.
+          - **Object Oriented Programming:** Implemented core OOP principles (encapsulation, inheritance, polymorphism) to build modular software components Java.
           - **Data Structures and Algorithms:** Analyzed, implemented, and compared fundamental data structures and algorithms for efficient problem-solving.
 
 
