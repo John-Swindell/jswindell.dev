@@ -272,7 +272,7 @@ params:
         image: /images/projects/profile.png # Path to ERD screenshot
         featured: # Optional link (e.g., if there was a live demo or report)
           name: See this project in GitHub
-          link: "https://github.com/John-Swindell"
+          link: "https://github.com/John-Swindell/Portfolio-SQL-Schema/tree/main"
         badges: # Technologies used
           - "SQL"
           - "MySQL"
