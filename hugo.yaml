@@ -270,16 +270,16 @@ params:
         content: "Designed and implemented a relational database schema using ERDs for a library system, applying SQL/MySQL concepts."
         # IMPORTANT: Ensure 'profile.png' exists in 'static/images/projects/' folder and shows ERD
         image: /images/projects/profile.png # Path to ERD screenshot
-        # featured: # Optional link (e.g., if there was a live demo or report)
-        #   name: View Details
-        #   link: "#"
+        featured: # Optional link (e.g., if there was a live demo or report)
+          name: View Details
+          link: "https://github.com/John-Swindell"
         badges: # Technologies used
           - "SQL"
           - "MySQL"
           - "ERD"
-        links: # Optional links (e.g., GitHub repo if applicable)
-          - icon: fab fa-github
-            url: "https://github.com/John-Swindell"
+        # links: # Optional links (e.g., GitHub repo if applicable)
+        #   - icon: fab fa-github
+        #     url: "https://github.com/John-Swindell"
 
       # --- Commented out other project examples until ready ---
       # - title: "Your Project Name 2"
