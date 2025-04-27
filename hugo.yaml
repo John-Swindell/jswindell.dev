@@ -266,20 +266,23 @@ params:
     enable: true
     # title: "My Projects" # Uncomment to customize title
     items: # Your projects
-      - title: "Relational Database Design (SQL Library)" # Updated title
-        content: "Designed and implemented a relational database schema using ERDs for a library system, applying SQL/MySQL concepts."
+      - title: "Portfolio Database Schema (SQL)" # Updated title for clarity
+        # Updated content to reflect repo contents
+        content: "Designed and implemented a relational database schema (MySQL) to store portfolio information, including personal details, education, skills, and sample data/queries. Includes Entity-Relationship Diagram (ERD)."
         # IMPORTANT: Ensure 'profile.png' exists in 'static/images/projects/' folder and shows ERD
         image: /images/projects/profile.png # Path to ERD screenshot
-        featured: # Optional link (e.g., if there was a live demo or report)
-          name: See this project in GitHub
+        featured: # Link to the GitHub repository
+          name: View on GitHub
           link: "https://github.com/John-Swindell/Portfolio-SQL-Schema/tree/main"
         badges: # Technologies used
           - "SQL"
           - "MySQL"
+          - "Database Design"
           - "ERD"
-        # links: # Optional links (e.g., GitHub repo if applicable)
-        #   - icon: fab fa-github
-        #     url: "https://github.com/John-Swindell"
+        # links: # Optional additional links (like a live demo if applicable) can be added here
+        #   - icon: fas fa-external-link-alt # Example icon
+        #     url: "#" # Link URL
+
 
       # --- Commented out other project examples until ready ---
       # - title: "Your Project Name 2"
