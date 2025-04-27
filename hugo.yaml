@@ -69,7 +69,7 @@ Menus:
 # --- Theme Parameters (Main Content Configuration) ---
 params:
   title: "John Swindell" # Site title used in some theme elements
-  description: "Portfolio website for John Swindell, an aspiring developer and current Computer Science student." # Meta description for SEO
+  description: "Portfolio website for John Swindell, an aspiring developer and current Computer Science student." 
   favicon: "/fav.png" # Path to favicon in static/ folder
 
   # --- CDN Settings (Keep false unless needed) ---
@@ -103,7 +103,7 @@ params:
   # --- Navbar Settings ---
   navbar:
     align: ms-auto # Alignment of menu items (ms-auto = right)
-    brandName: "John Swindell" # << UPDATED Name shown in navbar
+    brandName: "John Swindell" # << Name shown in navbar
     disableSearch: true # Set true to hide search / set to false to bring back
     stickyNavBar:
       enable : true
@@ -131,8 +131,7 @@ params:
     button: # Resume Button
       enable: true
       name: "Resume"
-      # IMPORTANT: Ensure 'Johnanthan Swindell Resume.pdf' exists in 'static/' folder
-      # Consider renaming PDF without spaces: Johnanthan_Swindell_Resume.pdf and update URL below
+      # IMPORTANT: Ensure 'Whatever your resume Resume.pdf' exists in 'static/' folder
       url: "/Johnanthan Swindell Resume.pdf"
       download: true # Force download
       newPage: false
@@ -171,8 +170,8 @@ params:
         - "JavaScript"
         - "Android Studio"
         - "BeautifulSoup"
-        - "C#" # Added from resume
-        - "HTML & CSS" # Added from resume
+        - "C#"
+        - "HTML & CSS" 
         # Add/remove as appropriate
 
   # --- Experience Section ---
@@ -253,7 +252,7 @@ params:
     items: # Your achievements/activities
       - title: "SNHU President's List"
         content: "Achieved President's List honors for academic excellence."
-        # url: "https://meritpages.com/Johnathan-Swindell/8555123" # Optional link
+        url: "https://meritpages.com/Johnathan-Swindell/8555123" # Optional link
         # image: /images/snhu_logo.png # Optional image if you have one
       - title: "Computer Science Club Member"
         content: "Actively contributing to club projects, assisting with tech-related events, engaging in coding competitions and collaborative development."
@@ -268,8 +267,8 @@ params:
     # title: "My Projects" # Uncomment to customize title
     items: # Your projects
       - title: "Relational Database Design (SQL Library)" # Updated title
-        content: "Designed and implemented a relational database schema using ERDs for a library system, applying SQL/MySQL concepts." # Updated description based on resume/context
-        # IMPORTANT: Ensure 'profile.png' exists in 'static/images/projects/' folder and shows your ERD
+        content: "Designed and implemented a relational database schema using ERDs for a library system, applying SQL/MySQL concepts."
+        # IMPORTANT: Ensure 'profile.png' exists in 'static/images/projects/' folder and shows ERD
         image: /images/projects/profile.png # Path to ERD screenshot
         # featured: # Optional link (e.g., if there was a live demo or report)
         #   name: View Details
@@ -322,7 +321,7 @@ params:
       path: "blogs" # Assumes blog posts are in content/blogs/
       count: 3 # Number of posts to show
       title: "Recent Posts"
-      enable: false # << Disabled as you don't have blog section active yet
+      enable: false # << Disabled as I don't have blog section active yet, set to true if you want one
       disableFeaturedImage: false
     socialNetworks: # Footer social links
       github: "https://github.com/John-Swindell/" # Your GitHub
