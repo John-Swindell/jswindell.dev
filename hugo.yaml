@@ -130,7 +130,7 @@ params:
       enable: true # The wavy SVG divider
     button: # Resume Button
       enable: true
-      name: "Resume"
+      name: "Resumé"
       # IMPORTANT: Ensure 'Whatever your resume Resume.pdf' exists in 'static/' folder
       url: "/Johnanthan Swindell Resume.pdf"
       download: true # Force download
