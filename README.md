@@ -10,7 +10,7 @@ This site serves as my personal portfolio, showcasing my projects, experience, s
 
 ## Technology Stack
 
-* **Static Site Generator:** [Hugo](https://gohugo.io/) (v0.147.0+ used locally during development)
+* **SSG:** [Hugo](https://gohugo.io/) (v0.147.0+ used locally during development)
 * **Theme:** Based on [hugo-profile](https://github.com/gurusabarish/hugo-profile) by Gurusabarish (This repository is a fork). Modifications and content are my own.
 * **Deployment:** Hosted on [Cloudflare Pages](https://pages.cloudflare.com/), automatically deployed from the `main` branch.
 
