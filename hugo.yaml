@@ -256,7 +256,7 @@ params:
         # image: /images/snhu_logo.png # Optional image if you have one
       - title: "Computer Science Club Member"
         content: "Actively contributing to club projects, assisting with tech-related events, engaging in coding competitions and collaborative development."
-        # url: "" # Optional link to club page if exists
+        url: "https://github.com/codingUnited" # Optional link to club page if exists
       - title: "Cyberleague Club Member"
         content: "Collaborating with peers to analyze cybersecurity strategies and assisting in organizing club events and competitions."
         # url: "" # Optional link to club page if exists
@@ -266,18 +266,19 @@ params:
     enable: true
     # title: "My Projects" # Uncomment to customize title
     items: # Your projects
-      - title: "Portfolio Database Schema (SQL)" # Updated title for clarity
-        # Updated content to reflect repo contents
-        content: "Designed and implemented a relational database schema (MySQL) to store portfolio information, including personal details, education, skills, and sample data/queries. Includes Entity-Relationship Diagram (ERD)."
-        # IMPORTANT: Ensure 'profile.png' exists in 'static/images/projects/' folder and shows ERD
-        image: /images/projects/profile.png # Path to ERD screenshot
-        featured: # Link to the GitHub repository
+      - title: "Portfolio SQL Schema & Python Automation" # New title reflecting both aspects
+        content: "Comprehensive project showcasing a relational SQL database (MySQL) for portfolio data, with Python scripts for automated setup, data interaction, querying, and cloud DB connectivity (TiDB Cloud)."
+        image: /images/projects/profile.png # Consider if this image (ERD) is still the best single representation, or if you want a composite image or a screenshot of Python output. For now, ERD is fine.
+        featured:
           name: View on GitHub
-          link: "https://github.com/John-Swindell/Portfolio-SQL-Schema/tree/main"
-        badges: # Technologies used
+          link: "https://github.com/John-Swindell/Portfolio-SQL-Schema" # Link to the repo root is usually sufficient
+        badges:
+          - "Python"
           - "SQL"
           - "MySQL"
           - "Database Design"
+          - "Automation"
+          - "TiDB Cloud"
           - "ERD"
         # links: # Optional additional links (like a live demo if applicable) can be added here
         #   - icon: fas fa-external-link-alt # Example icon
