@@ -234,7 +234,7 @@ params:
       # --- Club Projects Follow ---
       - title: "Coding United - GitHub Ecosystem & Resource Hub" # Slightly adjusted title
         content: "Led the initiative to structure and build out Coding United's GitHub organization. This involved creating a central 'Club Hub' guide for member onboarding and information, an 'Awesome Resources' list for community learning, establishing documentation standards (Code of Conduct, Contributing Guidelines), and designing the main organization profile to enhance engagement and resource accessibility."
-        image: "/images/club-hub-picture.png" # UPDATED PATH
+        image: "/images/club-hub-picture.PNG" # UPDATED PATH
         featured:
           name: View Club Hub
           link: "https://github.com/codingUnited/coding-united-hub"
@@ -257,7 +257,7 @@ params:
 
       - title: "Developer Onboarding Templates (Python & Docker) - Coding United"
         content: "Designed and implemented standardized, well-documented starter templates for Python (with venv/PyCharm guidance) and Docker. These templates streamline project initiation for Coding United members, promote best practices, and lower the barrier to entry for new coders."
-        image: "/images/docker-template-picture.png" # UPDATED to docker-template-picture.png
+        image: "/images/docker-template-picture.PNG" # UPDATED to docker-template-picture.PNG
         featured:
           name: Docker Template
           link: "https://github.com/codingUnited/docker-template"
@@ -274,7 +274,7 @@ params:
 
       - title: "CS Career Skill Explorer - Coding United"
         content: "Developed an interactive web page for Coding United members to explore various Computer Science career paths and self-assess their skills. Features foundational CS skills, club project tech stack, and detailed checklists for 10 different career tracks, built with HTML, CSS, and JavaScript for a responsive, dark-mode user experience."
-        image: "/images/skills-checklist-site.png" # UPDATED PATH
+        image: "/images/skills-checklist-site.PNG" # UPDATED PATH
         featured:
           name: View Skill Explorer
           link: "https://coding-united-skill.pages.dev/"
@@ -292,7 +292,7 @@ params:
 
       - title: "Coding United - Club Project Guide Website"
         content: "Created a dedicated informational website to visualize the roadmap, phases, tech stack, and learning objectives for Coding United's flagship collaborative full-stack project. This guide enhances member understanding and preparedness for contributing to the project."
-        image: "/images/club-website-project-guide.png" # UPDATED PATH
+        image: "/images/club-website-project-guide.PNG" # UPDATED PATH
         featured:
           name: View Project Guide
           link: "https://club-project-guide.pages.dev/"
@@ -309,7 +309,7 @@ params:
 
       - title: "Coding United - Main Club Website"
         content: "Developed and maintain the primary public-facing website for Coding United (coding-united-commons.pages.dev). This site serves as a central information point, integrated with all club GitHub resources, and built with HTML, Tailwind CSS, and JavaScript for a modern, responsive experience."
-        image: "/images/club-website-main-page.png" # UPDATED PATH
+        image: "/images/club-website-main-page.PNG" # UPDATED PATH
         featured:
           name: View Club Website
           link: "https://coding-united-commons.pages.dev/"
