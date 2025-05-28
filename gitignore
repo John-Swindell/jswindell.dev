@@ -6,6 +6,8 @@
 ### Hugo ###
 # Generated files by hugo
 /public/
+/public
+public/
 /exampleSite/public/
 /resources/_gen/
 /assets/jsconfig.json
