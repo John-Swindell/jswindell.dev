@@ -183,19 +183,20 @@ params:
           - SNHU President's List: 2024 - 2025
           
           ### Relevant Coursework:
-          
-          - Applied Statistics for STEM (Python, Pandas, NumPy, SciPy): Leveraged Python libraries to analyze complex datasets and derive actionable insights.
-          - Structured Database Environments (SQL/MySQL): Designed and implemented relational databases, mastering complex SQL queries for data integrity and retrieval.
-          - Foundation in Application Development (Java): Developed a functional application prototype based on simulated client requirements, translating needs into technical solutions.
-          - Object Oriented Programming (Java): Engineered modular and reusable software components by applying core OOP principles (encapsulation, inheritance, polymorphism).
-          - Python Scripting: Created automation scripts and utility applications to solve practical problems and streamline tasks.
-          - Data Structures and Algorithms: Implemented and analyzed various data structures and algorithms to optimize solutions for complex computational problems.
-          - Foundation in C++ Programming: Built efficient applications in C++, gaining experience in memory management and performance optimization.
-          - Operating Systems: Explored core OS concepts like process scheduling, memory management, and concurrency to understand system-level interactions.
-          - Software Engineering Principles: Collaboratively developed a software project using agile methodologies, managing the full development lifecycle from requirements to a functional prototype.
-          - Discrete Mathematics: Applied logic, set theory, and graph theory to model computational problems and develop formal proofs.
-          - Linear Algebra: Utilized vector spaces and matrix operations to solve systems and understand transformations fundamental to graphics and machine learning.
-          - Calculus: Applied differentiation and integration to model rates of change and optimize functions, building a mathematical foundation for advanced algorithms.
+
+          - **Applied Statistics for STEM (Python, Pandas, NumPy, SciPy)**: Leveraged Python libraries to analyze complex datasets and derive actionable insights. 
+
+          - **Structured Database Environments (SQL/MySQL)**: Designed and implemented relational databases, mastering complex SQL queries for data integrity and retrieval.  
+          - **Foundation in Application Development (Java)**: Developed a functional application prototype based on simulated client requirements, translating needs into technical solutions.  
+          - **Object Oriented Programming (Java)**: Engineered modular and reusable software components by applying core OOP principles (encapsulation, inheritance, polymorphism).  
+          - **Python Scripting**: Created automation scripts and utility applications to solve practical problems and streamline tasks.  
+          - **Data Structures and Algorithms**: Implemented and analyzed various data structures and algorithms to optimize solutions for complex computational problems.  
+          - **Foundation in C++ Programming**: Built efficient applications in C++, gaining experience in memory management and performance optimization.  
+          - **Operating Systems**: Explored core OS concepts like process scheduling, memory management, and concurrency to understand system-level interactions.  
+          - **Software Engineering Principles**: Collaboratively developed a software project using agile methodologies, managing the full development lifecycle from requirements to a functional prototype.  
+          - **Discrete Mathematics**: Applied logic, set theory, and graph theory to model computational problems and develop formal proofs.  
+          - **Linear Algebra**: Utilized vector spaces and matrix operations to solve systems and understand transformations fundamental to graphics and machine learning.  
+          - **Calculus**: Applied differentiation and integration to model rates of change and optimize functions, building a mathematical foundation for advanced algorithms.
 
   achievements:
     enable: true
@@ -204,12 +205,28 @@ params:
       - title: "Key Contributor & Developer - Coding United Club @ SNHU"
         content: "Spearheaded a major revamp of the Coding United club's GitHub presence. Designed, developed, and documented key resources including developer templates (Python, Docker), a central Club Hub, an 'Awesome Resources' list, a Club Project Guide website, the main club website, and an interactive CS Career Skill Explorer tool. Focused on improving member onboarding, resource accessibility, and fostering a collaborative environment."
         url: "https://github.com/codingUnited"
-      - title: "SNHU President's List"
-        content: "Achieved President's List honors for academic excellence (Fall 2024, Winter 2025, Spring 2025)."
-        url: "https://meritpages.com/Johnathan-Swindell/8555123"
+
+      - title: "Creator & Author of Multiple Project Guides"
+        content: "As a volunteer, developed multiple comprehensive, interactive web-based coding guides for the SNHU Computer Science program to assist fellow students. The linked guide breaks down complex requirements, explains core concepts, and provides a clear roadmap, aiming to simplify the learning process and support student success."
+        url: "https://cs210-project-guide.pages.dev/" 
+      
+
+      - title: "SNHU Honor Roll" 
+        content: "Recognized on the SNHU Honor Roll for multiple terms due to sustained high academic achievement, including: 2025 C-2 (March - April), 2025 C-1 (January - March), 2024 C-6 (October - December), and 2024 C-5 (September - October)."
+        url: "https://meritpages.com/Johnathan-Swindell/8555123" 
+
+      - title: "Technical Workshop Lead" 
+        content: "Developing and delivering technical workshops for Coding United members on foundational topics like Git/GitHub, Python environments, and Docker basics, aimed at enhancing practical skills and peer-to-peer learning within the club."
+        url: "https://github.com/orgs/codingUnited/repositories"
+
+      - title: "SNHU President's List" 
+        content: "Consistently achieved President's List honors for outstanding academic excellence during the Fall 2024 and Spring 2025 terms."
+        url: "https://meritpages.com/Johnathan-Swindell/8555123" 
+
       - title: "Cyberleague Club Member"
-        content: "Collaborating with peers to analyze cybersecurity strategies and assisting in organizing club events and competitions."
+        content: "Collaborating with peers to analyze cybersecurity strategies and assisting in organizing club events and competitions, focusing on areas like network security and ethical hacking principles."
         # url: ""
+
 
   projects:
     enable: true
@@ -232,9 +249,81 @@ params:
           - "ERD"
 
       # --- Club Projects Follow ---
-      - title: "Coding United - GitHub Ecosystem & Resource Hub" # Slightly adjusted title
-        content: "Led the initiative to structure and build out Coding United's GitHub organization. This involved creating a central 'Club Hub' guide for member onboarding and information, an 'Awesome Resources' list for community learning, establishing documentation standards (Code of Conduct, Contributing Guidelines), and designing the main organization profile to enhance engagement and resource accessibility."
-        image: "/images/club-hub-picture.PNG" # UPDATED PATH
+      - title: "Created Main Club Website"
+        content: "Developed and maintain the primary public-facing website for Coding United (coding-united-commons.pages.dev). This site serves as a central information point, integrated with all club GitHub resources, and built with HTML, Tailwind CSS, and JavaScript for a modern, responsive experience."
+        image: "/images/club-website-main-page.PNG"
+        featured:
+          name: View Club Website
+          link: "https://coding-united-commons.pages.dev/"
+        badges:
+          - "Web Development"
+          - "HTML"
+          - "Tailwind CSS"
+          - "CSS"
+          - "JavaScript"
+        # commented out because source code is private right now.
+#        links:
+#          - icon: fab fa-github
+#            url: "https://github.com/codingUnited/coding-united-commons-source"
+#            tooltip: "View Source Code"
+
+
+
+      - title: "Developer Onboarding Templates (Python & Docker)"
+        content: "Designed and implemented standardized, well-documented starter templates for Python (with venv/PyCharm guidance) and Docker. These templates streamline project initiation for Coding United members, promote best practices, and lower the barrier to entry for new coders."
+        image: "/images/docker-template-picture.PNG" # UPDATED to docker-template-picture.PNG
+        featured:
+          name: View Docker Template
+          link: "https://github.com/codingUnited/docker-template"
+        badges:
+          - "Python"
+          - "Docker"
+          - "Developer Tools"
+          - "Technical Writing"
+          - "Git"
+        links:
+          - icon: fab fa-python
+            url: "https://github.com/codingUnited/python-template"
+            tooltip: "View The Python Template"
+
+      - title: "Computer Science Student Career Skill Explorer"
+        content: "Developed an interactive web page for Coding United members to explore various Computer Science career paths and self-assess their skills. Features foundational CS skills, club project tech stack, and detailed checklists for 10 different career tracks, built with HTML, CSS, and JavaScript for a responsive, dark-mode user experience."
+        image: "/images/skills-checklist-site.PNG"
+        featured:
+          name: View Skill Explorer
+          link: "https://coding-united-skill.pages.dev/"
+        badges:
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+          - "UI/UX Design"
+          - "Educational Tool"
+          - "Web Development"
+            # links:
+            #   - icon: fab fa-github
+            #     url: "[Link to its source code if separate & public]"
+          #     tooltip: "View Source Code"
+
+      - title: "Created and Planned Full Club Project Guide Website"
+        content: "Planned and created a dedicated informational website to visualize the roadmap, phases, tech stack, and learning objectives for Coding United's flagship collaborative full-stack project. This guide enhances member understanding and preparedness for contributing to the project."
+        image: "/images/club-website-project-guide.PNG"
+        featured:
+          name: View Project Guide
+          link: "https://club-project-guide.pages.dev/"
+        badges:
+          - "Web Development"
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+          - "Project Documentation"
+        # links:
+        #   - icon: fab fa-github
+        #     url: "[Link to its source code if public]"
+        #     tooltip: "View Source Code"
+
+      - title: "Coding United - GitHub Ecosystem & Resource Hub"
+        content: "Led the collaborative initiative to structure and build out Coding United's GitHub organization. This involved creating a central 'Club Hub' guide for member onboarding and information, an 'Awesome Resources' list for community learning, establishing documentation standards (Code of Conduct, Contributing Guidelines), and designing the main organization profile to enhance engagement and resource accessibility."
+        image: "/images/club-hub-picture.PNG"
         featured:
           name: View Club Hub
           link: "https://github.com/codingUnited/coding-united-hub"
@@ -255,75 +344,6 @@ params:
             url: "https://github.com/codingUnited/.github/blob/main/CODE_OF_CONDUCT.md"
             tooltip: "Code of Conduct"
 
-      - title: "Developer Onboarding Templates (Python & Docker) - Coding United"
-        content: "Designed and implemented standardized, well-documented starter templates for Python (with venv/PyCharm guidance) and Docker. These templates streamline project initiation for Coding United members, promote best practices, and lower the barrier to entry for new coders."
-        image: "/images/docker-template-picture.PNG" # UPDATED to docker-template-picture.PNG
-        featured:
-          name: Docker Template
-          link: "https://github.com/codingUnited/docker-template"
-        badges:
-          - "Python"
-          - "Docker"
-          - "Developer Tools"
-          - "Technical Writing"
-          - "Git"
-        links:
-          - icon: fab fa-docker
-            url: "https://github.com/codingUnited/docker-template"
-            tooltip: "Docker Template"
-
-      - title: "CS Career Skill Explorer - Coding United"
-        content: "Developed an interactive web page for Coding United members to explore various Computer Science career paths and self-assess their skills. Features foundational CS skills, club project tech stack, and detailed checklists for 10 different career tracks, built with HTML, CSS, and JavaScript for a responsive, dark-mode user experience."
-        image: "/images/skills-checklist-site.PNG" # UPDATED PATH
-        featured:
-          name: View Skill Explorer
-          link: "https://coding-united-skill.pages.dev/"
-        badges:
-          - "HTML"
-          - "CSS"
-          - "JavaScript"
-          - "UI/UX Design"
-          - "Educational Tool"
-          - "Web Development"
-            # links:
-            #   - icon: fab fa-github
-            #     url: "[Link to its source code if separate & public]"
-          #     tooltip: "View Source Code"
-
-      - title: "Coding United - Club Project Guide Website"
-        content: "Created a dedicated informational website to visualize the roadmap, phases, tech stack, and learning objectives for Coding United's flagship collaborative full-stack project. This guide enhances member understanding and preparedness for contributing to the project."
-        image: "/images/club-website-project-guide.PNG" # UPDATED PATH
-        featured:
-          name: View Project Guide
-          link: "https://club-project-guide.pages.dev/"
-        badges:
-          - "Web Development"
-          - "HTML"
-          - "CSS"
-          - "JavaScript"
-          - "Project Documentation"
-        # links:
-        #   - icon: fab fa-github
-        #     url: "[Link to its source code if public]"
-        #     tooltip: "View Source Code"
-
-      - title: "Coding United - Main Club Website"
-        content: "Developed and maintain the primary public-facing website for Coding United (coding-united-commons.pages.dev). This site serves as a central information point, integrated with all club GitHub resources, and built with HTML, Tailwind CSS, and JavaScript for a modern, responsive experience."
-        image: "/images/club-website-main-page.PNG" # UPDATED PATH
-        featured:
-          name: View Club Website
-          link: "https://coding-united-commons.pages.dev/"
-        badges:
-          - "Web Development"
-          - "HTML"
-          - "Tailwind CSS"
-          - "CSS"
-          - "JavaScript"
-        # commented out because source code is private right now.
-#        links:
-#          - icon: fab fa-github
-#            url: "https://github.com/codingUnited/coding-united-commons-source"
-#            tooltip: "View Source Code"
 
   contact:
     enable: true
