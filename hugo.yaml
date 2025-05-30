@@ -268,7 +268,7 @@ params:
 #            tooltip: "View Source Code"
 
       - title: "Computer Science Student Career Skill Explorer"
-        content: "Developed an interactive web tool for Computer Science students and Coding United members to explore career paths and self-assess skills. Users complete checklists, and upon generating a summary, a Cloudflare Worker securely calls the Gemini API to provide a personalized rundown of their current skills strengths, suggest areas for further development, and potential career path alignments. This feature enhances self-reflection and career exploration. Built with HTML, CSS, JavaScript, Cloudflare Workers, and integrated with the Gemini API."
+        content: "Developed an interactive web tool for Computer Science students and Coding United members to explore career paths and self-assess skills. Users complete checklists, and upon generating a summary, a Cloudflare Worker securely calls the Gemini API to provide a personalized rundown of their current skills strengths, suggest areas for further development, and potential career path alignments. Built with HTML, CSS, JavaScript, Cloudflare Workers, and integrated with the Gemini API."
         image: "/images/skills-checklist-site-animation.gif"
         featured:
           name: View Skill Explorer
