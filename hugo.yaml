@@ -267,28 +267,9 @@ params:
 #            url: "https://github.com/codingUnited/coding-united-commons-source"
 #            tooltip: "View Source Code"
 
-
-
-      - title: "Developer Onboarding Templates (Python & Docker)"
-        content: "Designed and implemented standardized, well-documented starter templates for Python (with venv/PyCharm guidance) and Docker. These templates streamline project initiation for Coding United members, promote best practices, and lower the barrier to entry for new coders."
-        image: "/images/docker-template-picture.PNG" # UPDATED to docker-template-picture.PNG
-        featured:
-          name: View Docker Template
-          link: "https://github.com/codingUnited/docker-template"
-        badges:
-          - "Python"
-          - "Docker"
-          - "Developer Tools"
-          - "Technical Writing"
-          - "Git"
-        links:
-          - icon: fab fa-python
-            url: "https://github.com/codingUnited/python-template"
-            tooltip: "View The Python Template"
-
       - title: "Computer Science Student Career Skill Explorer"
-        content: "Developed an interactive web page for Coding United members to explore various Computer Science career paths and self-assess their skills. Features foundational CS skills, club project tech stack, and detailed checklists for 10 different career tracks, built with HTML, CSS, and JavaScript for a responsive, dark-mode user experience."
-        image: "/images/skills-checklist-site.PNG"
+        content: "Developed an interactive web tool for Coding United members to explore CS career paths and self-assess skills. Users complete checklists, and upon generating a summary, a Cloudflare Worker securely calls the Gemini API to provide a personalized rundown of their indicated skills and potential career path alignments. This feature enhances self-reflection and career exploration. Built with HTML, CSS, JavaScript, Cloudflare Workers, and integrated with the Gemini API."
+        image: "/images/skills-checklist-site-animation.gif"
         featured:
           name: View Skill Explorer
           link: "https://coding-united-skill.pages.dev/"
@@ -299,6 +280,9 @@ params:
           - "UI/UX Design"
           - "Educational Tool"
           - "Web Development"
+          - "AI / LLM"
+          - "Gemini API"
+          - "Cloudflare Workers"
             # links:
             #   - icon: fab fa-github
             #     url: "[Link to its source code if separate & public]"
@@ -320,6 +304,26 @@ params:
         #   - icon: fab fa-github
         #     url: "[Link to its source code if public]"
         #     tooltip: "View Source Code"
+
+      - title: "Developer Onboarding Templates (Python & Docker)"
+        content: "Designed and implemented standardized, well-documented starter templates for Python (with venv/PyCharm guidance) and Docker. These templates streamline project initiation for Coding United members, promote best practices, and lower the barrier to entry for new coders."
+        image: "/images/docker-template-picture.PNG" # UPDATED to docker-template-picture.PNG
+        featured:
+          name: View Docker Template
+          link: "https://github.com/codingUnited/docker-template"
+        badges:
+          - "Python"
+          - "Docker"
+          - "Developer Tools"
+          - "Technical Writing"
+          - "Git"
+        links:
+          - icon: fab fa-python
+            url: "https://github.com/codingUnited/python-template"
+            tooltip: "View The Python Template"
+
+
+
 
       - title: "Coding United - GitHub Ecosystem & Resource Hub"
         content: "Led the collaborative initiative to structure and build out Coding United's GitHub organization. This involved creating a central 'Club Hub' guide for member onboarding and information, an 'Awesome Resources' list for community learning, establishing documentation standards (Code of Conduct, Contributing Guidelines), and designing the main organization profile to enhance engagement and resource accessibility."
