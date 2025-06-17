@@ -193,9 +193,8 @@ params:
           - **Foundation in C++ Programming**: Built efficient applications in C++, gaining experience in memory management and performance optimization.  
           - **Operating Systems**: Explored core OS concepts like process scheduling, memory management, and concurrency to understand system-level interactions.  
           - **Software Engineering Principles**: Collaboratively developed a software project using agile methodologies, managing the full development lifecycle from requirements to a functional prototype.  
-          - **Discrete Mathematics**: Applied logic, set theory, and graph theory to model computational problems and develop formal proofs.  
+          - **Discrete Mathematics**: Applied logic, set theory, and graph theory to model computational problems.  
           - **Linear Algebra**: Utilized vector spaces and matrix operations to solve systems and understand transformations fundamental to graphics and machine learning.  
-          - **Calculus**: Applied differentiation and integration to model rates of change and optimize functions, building a mathematical foundation for advanced algorithms.
 
   achievements:
     enable: true
