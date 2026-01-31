@@ -26,7 +26,7 @@ enableRobotsTXT: true
 
 # --- Pagination for Lists ---
 pagination:
-  pagerSize: 3
+  pagerSize: 6
 
 # --- Markdown Renderer ---
 markup:
@@ -36,17 +36,17 @@ markup:
 
 # --- Main Navigation Menu ---
 Menus:
-#  main:
-# - identifier: blog
-#   name: Blog
-#   title: Blog posts
-#   url: /blogs
-#   weight: 1
-# - identifier: gallery
-#   name: Gallery
-#   title: Gallery
-#   url: /gallery
-#   weight: 2
+  main:
+  - identifier: blog
+    name: Blog
+    title: Blog posts
+    url: /blogs
+    weight: 1
+#   - identifier: gallery
+#     name: Gallery
+#     title: Gallery
+#     url: /gallery
+#     weight: 2
 
 # --- Theme Parameters (Main Content Configuration) ---
 params:
@@ -61,7 +61,7 @@ params:
 
   theme:
   # disableThemeToggle: true
-  # defaultTheme: "dark"
+  defaultTheme: "dark"
 
   font:
     fontSize: 1rem
@@ -94,7 +94,7 @@ params:
     title: "John Swindell."
     subtitle: "I am a Computer Science student at SNHU"
     content: "I am an aspiring developer who is always willing and excited to learn new things, with a passion for building useful tools and fostering collaborative communities."
-    image: "/images/hero.png" # Make sure this exists in static/images/
+    image: "/images/hero.png"
     bottomImage:
       enable: true
     button:
@@ -230,7 +230,41 @@ params:
     enable: true
     # title: "My Projects"
     items:
-      # --- MySQL Project Moved to the Top ---
+      # --- Machine Learning Project ---
+      - title: "ML-Driven Quant Research Model"
+        content: "A backtesting framework utilizing CatBoost and Anchored Walk-Forward Validation. Engineered to detect overfitting and validate potential alpha quickly via rigorous risk diagnostics (Sharpe, Sortino, Volatility Targeting)"
+        image: "/images/projects/quant_tearsheet_thumb.png"
+        featured:
+          name: "Read Case Study"
+          link: "/blogs/quant-momentum-research"
+        badges:
+          - "Python"
+          - "Machine Learning"
+          - "CatBoost"
+          - "QuantStats"
+          - "Walk-Forward Validation"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/John-Swindell/machine-learning-research-model"
+            tooltip: "View Model Source Code"
+
+       # --- Data Engineering Crypt0nest Project ---
+      - title: "Automated Crypto Data Pipeline"
+        content: "A containerized ETL pipeline architected on GCP to solve lookahead bias. Orchestrates multi-source ingestion (Market, On-Chain, Social) with strict Bronze/Silver quality gates and Point-in-Time feature engineering."
+        image: "/images/projects/pipeline_architecture.png"
+        featured:
+          name: "Read Architecture Breakdown"
+          link: "/blogs/data-pipeline"
+        badges:
+          - "Python"
+          - "Google Cloud Platform"
+          - "Docker"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/John-Swindell/data-engineering-etl-pipeline"
+            tooltip: "View Source Code"
+
+      # --- MySQL Project ---
       - title: "Portfolio SQL Schema & Python Automation"
         content: "Comprehensive project showcasing the development of a relational SQL database (MySQL) for managing portfolio data. This includes Python scripts enabling automated database initialization, CRUD operations, sophisticated data querying, and reliable connectivity with a TiDB Cloud database for cloud-based persistence and access."
         image: /images/projects/profile.png
@@ -281,10 +315,11 @@ params:
           - "AI / LLM"
           - "Gemini API"
           - "Cloudflare Workers"
-            # links:
-            #   - icon: fab fa-github
-            #     url: "[Link to its source code if separate & public]"
-          #     tooltip: "View Source Code"
+        # commented out because source code is private right now.
+#        links:
+#          - icon: fab fa-github
+#            url: "https://github.com/codingUnited/career-skill-explorer"
+#            tooltip: "View Source Code"
 
       - title: "Created and Planned Full Club Project Guide Website"
         content: "Planned and created a dedicated informational website to visualize the roadmap, phases, tech stack, and learning objectives for Coding United's flagship collaborative full-stack project. This guide enhances member understanding and preparedness for contributing to the project."
@@ -305,7 +340,7 @@ params:
 
       - title: "Developer Onboarding Templates (Python & Docker)"
         content: "Designed and implemented standardized, well-documented starter templates for Python (with venv/PyCharm guidance) and Docker. These templates streamline project initiation for Coding United members, promote best practices, and lower the barrier to entry for new coders."
-        image: "/images/docker-template-picture.PNG" # UPDATED to docker-template-picture.PNG
+        image: "/images/docker-template-picture.PNG"
         featured:
           name: View Docker Template
           link: "https://github.com/codingUnited/docker-template"
@@ -349,10 +384,10 @@ params:
 
   contact:
     enable: true
-    # title: "Get In Touch"
-    content: "My inbox is always open, so feel free to reach out if you have any questions!"
-    btnName: "Email Me"
-    btnLink: "mailto:jswindell28@gmail.com"
+    title: "Contact Me"
+    content: "If you'd like to get in touch, my business email is below."
+    btnName: "Email"
+    btnLink: "mailto:contact@jswindell.dev"
 
     # formspree:
     #   enable: true
@@ -376,7 +411,7 @@ params:
       # facebook: ""
 
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
   singlePages:
     socialShare: true
@@ -394,6 +429,7 @@ params:
     copyright: "All rights reserved"
     pageNotFound: "Page not found"
     emailText: "Check out this site"
+    social: "Share"
 
   datesFormat:
     article: "Jan 2, 2006"
