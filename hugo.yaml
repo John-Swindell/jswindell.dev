@@ -61,7 +61,7 @@ params:
 
   theme:
   # disableThemeToggle: true
-  defaultTheme: "dark"
+  # defaultTheme: "dark"
 
   font:
     fontSize: 1rem
@@ -280,6 +280,24 @@ params:
           - "TiDB Cloud"
           - "ERD"
 
+      # --- Python Automation Project ---
+      - title: "Async Discord Monitor"
+        content: "Real-time inventory tracker built on a non-blocking asyncio architecture. Features a custom offline testing harness for safe DOM parsing and maintains a persistent WebSocket connection for zero-latency alerts."
+        image: "/images/projects/discord_bot_image_project.png"
+        featured:
+          name: "Read About This Project"
+          name: "Read About This Project"
+          link: "/blogs/comic-scraper-bot"
+        badges:
+          - "Python"
+          - "Asyncio"
+          - "BeautifulSoup"
+          - "Discord.py"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/John-Swindell/comic-scraper-discord-bot"
+            tooltip: "View Source Code"
+
       # --- Club Projects Follow ---
       - title: "Created Main Club Website"
         content: "Developed and maintain the primary public-facing website for Coding United (coding-united-commons.pages.dev). This site serves as a central information point, integrated with all club GitHub resources, and built with HTML, Tailwind CSS, and JavaScript for a modern, responsive experience."
@@ -300,7 +318,7 @@ params:
 #            tooltip: "View Source Code"
 
       - title: "Computer Science Student Career Skill Explorer"
-        content: "Developed an interactive web tool for Computer Science students and Coding United members to explore career paths and self-assess skills. Users complete checklists, and upon generating a summary, a Cloudflare Worker securely calls the Gemini API to provide a personalized rundown of their current skills strengths, suggest areas for further development, and potential career path alignments. Built with HTML, CSS, JavaScript, Cloudflare Workers, and integrated with the Gemini API."
+        content: "Developed a web tool for CS students and club members to explore career paths and self-assess skills. Users complete checklists, and upon generating a summary, a Cloudflare Worker securely calls the Gemini API giving a personalized rundown of their current strengths, areas for further development, and career path alignments."
         image: "/images/skills-checklist-site-animation.gif"
         featured:
           name: View Skill Explorer
