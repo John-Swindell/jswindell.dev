@@ -337,22 +337,6 @@ params:
 #            url: "https://github.com/codingUnited/career-skill-explorer"
 #            tooltip: "View Source Code"
 
-      - title: "Created and Planned Full Club Project Guide Website"
-        content: "Planned and created a dedicated informational website to visualize the roadmap, phases, tech stack, and learning objectives for Coding United's flagship collaborative full-stack project. This guide enhances member understanding and preparedness for contributing to the project."
-        image: "/images/club-website-project-guide.PNG"
-        featured:
-          name: View Project Guide
-          link: "https://club-project-guide.pages.dev/"
-        badges:
-          - "Web Development"
-          - "HTML"
-          - "CSS"
-          - "JavaScript"
-          - "Project Documentation"
-        # links:
-        #   - icon: fab fa-github
-        #     url: "[Link to its source code if public]"
-        #     tooltip: "View Source Code"
 
       - title: "Developer Onboarding Templates (Python & Docker)"
         content: "Designed and implemented standardized, well-documented starter templates for Python (with venv/PyCharm guidance) and Docker. These templates streamline project initiation for Coding United members, promote best practices, and lower the barrier to entry for new coders."
