@@ -12,6 +12,7 @@ public/
 /assets/jsconfig.json
 hugo_stats.json
 content/blogs/dead/
+static/css/dead
 
 # Executable may be added to repository
 hugo.exe

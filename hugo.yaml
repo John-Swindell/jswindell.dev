@@ -69,8 +69,6 @@ params:
     lineHeight: 1.5
     textAlign: left
 
-  # color:
-  #   ...
 
   navbar:
     align: ms-auto
@@ -454,5 +452,7 @@ params:
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
 
-  #customScripts: -|
-  #  <script type="text/javascript"></script>
+  # Must be added for stylesheet to actually work properly / load.
+  # customCSS param is worthless, as are the text color params.
+  customScripts: |
+      <link rel="stylesheet" href="/css/slate.css">
