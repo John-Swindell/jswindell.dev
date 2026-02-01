@@ -6,7 +6,7 @@ body.dark, .dark {
     --text-secondary-color: #94a3b8 !important;
 
     --primary-color: #3b82f6 !important;
-    --text-link-color: #60a5fa !important;
+    --text-link-color: #00c4ff !important;
 
     --primary-color-dark: #3b82f6 !important;
     --text-link-color-dark: #60a5fa !important;
@@ -29,7 +29,7 @@ body.dark .primary-font {
 body.dark i,
 body.dark .fab,
 body.dark .fas {
-    color: #77a3e2 !important;
+    color: #5c94ef !important;
 }
 
 body.dark p,
@@ -47,12 +47,11 @@ body.dark a {
 
 body.dark a:hover {
     color: #77d8dc !important;
-    text-shadow: none;
 }
 
 body.dark .card {
     background-color: #2e3440 !important;
-    border: 1px solid #3b4252 !important;
+    border: 1px solid #7083ad !important;
 }
 
 /* --- Single Page Overrides --- */
@@ -64,11 +63,6 @@ body.dark .card {
 
 /* --- List Page Overrides --- */
 
-/* Reverts to your "Contained" style.
-   - width: 100% ensures it fits inside the card on mobile (instead of fixed 400px).
-   - height: 400px keeps the tall box you had.
-   - object-fit: contain ensures the whole image shows without cropping or squishing.
-*/
 #list-page .card > .card-header .card-img-top {
     width: 100% !important;
     height: 400px !important;
