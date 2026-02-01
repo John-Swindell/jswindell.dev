@@ -316,7 +316,7 @@ params:
 
       # --- Club Projects Follow ---
       - title: "Created Main Club Website"
-        content: "Developed and maintain the primary public-facing website for Coding United (coding-united-commons.pages.dev). This site serves as a central information point, integrated with all club GitHub resources, and built with HTML, Tailwind CSS, and JavaScript for a modern, responsive experience."
+        content: "Developed and maintain the primary public-facing website for Coding United. This site serves as a central information point, integrated with all club GitHub resources, and built with HTML, Tailwind CSS, and JavaScript for a modern, responsive experience."
         image: "/images/club-website-main-page.PNG"
         featured:
           name: View Club Website
