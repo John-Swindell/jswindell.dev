@@ -17,7 +17,7 @@ outputs:
 # --- Generate robots.txt ---
 enableRobotsTXT: true
 
-  # --- Optional Services (Commented Out) ---
+  # --- Optional Services ---
   #services:
   #googleAnalytics:
 #id: G-MEASUREMENT_ID
@@ -38,8 +38,8 @@ markup:
 Menus:
   main:
   - identifier: blog
-    name: Blog
-    title: Blog posts
+    name: Blogs & Case Studies
+    title: Engineering Case Studies & Interesting Things
     url: /blogs
     weight: 1
 #   - identifier: gallery
@@ -48,12 +48,12 @@ Menus:
 #     url: /gallery
 #     weight: 2
 
+
 # --- Theme Parameters (Main Content Configuration) ---
 params:
   title: "John Swindell"
-  description: "Portfolio website for John Swindell, an aspiring developer and current Computer Science student."
+  description: "Technical Lead @ Tekly Studio |  CS Student @ SNHU | Data & AI focused engineer specializing in scalable ETL architectures and automated cloud infrastructure."
   favicon: "/fav.png"
-
   useBootstrapCDN: false
   # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
   mathjax: false
@@ -90,15 +90,15 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "John Swindell."
-    subtitle: "I am a Computer Science student at SNHU"
-    content: "I am an aspiring developer who is always willing and excited to learn new things, with a passion for building useful tools and fostering collaborative communities."
+    subtitle: "Technical Lead | CS Student"
+    content: "Computer Science candidate architecting scalable data pipelines and automation systems. I translate complex requirements into production-grade infrastructure, with a focus on advancing in AI, ETL, and Cloud Architecture."
     image: "/images/hero.png"
     bottomImage:
       enable: true
     button:
       enable: true
-      name: "Resumé"
-      url: "/Johnanthan Swindell Resume.pdf"
+      name: "Download Resume"
+      url: "/Johnanthan_Swindell_Resume.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -112,38 +112,57 @@ params:
         #customIcons:
         # - icon: /path/to/icon.png
         #   url: "link-for-icon"
-
   about:
     enable: true
     title: "About Me"
     image: "/images/me.png" # Make sure this exists in static/images/
     content: |-
-      I am John Swindell, a Computer Science student at SNHU with a strong drive to learn and build innovative solutions. 
-      I am particularly passionate about developing practical tools, enhancing developer experiences, and contributing to collaborative tech communities, as demonstrated by my recent work with the Coding United club.
-      My current personal project involves creating a cloud-based SQL database (TiDB Cloud) for scholastic information, populated and managed via Python automation scripts.
+      I’m a Technical Lead and Senior CS student who loves building scalable architecture from the ground up. I focus on systems that handle complexity, whether that's processing 250k+ daily crypto records or automating onboarding for a 30-person engineering cohort.
+      
+      Currently, I lead infrastructure at Tekly Studio, managing the GCP and Python ETL pipelines behind our quantitative research. I believe in a 'fail-fast' approach and that good architecture is what separates a script from a system. I operate on Agile principles and am currently diving deeper into DevSecOps.
     skills:
       enable: true
       title: "Here are a few technologies I am learning and using:"
       items:
-        - "Python (Django, Pandas, NumPy)"
-        - "Docker & Docker Compose"
+        - "Python (Pandas, NumPy, Google API)"
+        - "Google Cloud Platform (GCS, Cloud Run)"
+        - "Docker & Containerization"
+        - "Machine Learning (CatBoost, Scikit-Learn)"
         - "Git & GitHub"
-        - "HTML, CSS, JavaScript"
-        - "Tailwind CSS, Alpine.js"
-        - "SQL (MySQL, SQLite)"
-        - "Java & Android Studio"
-        - "C++/C#"
+        - "SQL / NoSQL / TiDB"
+        - "CI/CD & GitHub Actions"
         - "Technical Writing & Documentation"
-        - "Community Building & Leadership"
+        - "MS365 Office Suite"
+        - "Adobe Creative Suite"
 
 
   experience:
     enable: true
-    # title: "Where I've Worked"
+    title: "Professional Experience"
     items:
+      - job: "Technical Lead"
+        company: "Tekly Studio LLC"
+        date: "Dec 2025 - Present"
+        content: |
+          Selected to lead the Spring '26 engineering cohort and oversee critical data infrastructure following a successful tenure at Crypt0nest (a Tekly Studio partner).
+          - Architected a Zero-Touch Onboarding Pipeline: Designed and deployed an event-driven automation system using Python, Airtable, DocuSign, and GitHub Actions. The system handles the entire lifecycle for 30+ engineers, from contract generation to infrastructure provisioning, reducing administrative overhead by 90%.
+          - Headless LMS Implementation: Engineered a custom Learning Management System using the Google Drive and Docs APIs to dynamically generate curriculum materials and enforce role-based access control (RBAC) based on intern tracks.
+          - Infrastructure Leadership: Managing the maintenance and scaling of the core ETL pipeline, ensuring high availability for downstream quantitative research teams.
+          - Cloud Architecture: Overseeing GCP resource allocation and Docker container orchestration while maintaining comprehensive architectural documentation for executive stakeholders.
+
+      - job: "Data Engineering Lead Intern"
+        company: "Crypt0nest.io"
+        date: "Jun 2024 - Sept 2025"
+        content: |
+          Spearheaded the development of a survivorship-bias-free data pipeline for a Tekly Studio partner to support quantitative trading research.
+          - ETL Architecture: Designed and implemented a scalable ETL framework that ingests, cleans, and transforms raw multi-source data (CoinGecko, DeFiLlama) into optimized Parquet datasets.
+          - Cost Optimization: Engineered a two-tier caching strategy that reduced external API costs by 90% while significantly increasing data throughput and availability.
+          - Data Quality: Architected a Silver Layer validation framework to enforce schema integrity and data quality across 250k+ daily records.
+          - Robust Ingestion: Developed resilient Python parsers to handle complex, nested JSON schemas and rate-limited API endpoints.
+
       - job: "Google Search Quality Rater"
         company: "RWS Group Ltd."
-        date: "October 2024 - January 2025"
+        date: "October 2023 - January 2024"
         content: |
           - Worked on training and optimizing search algorithms on evolving search patterns and user behavior trends.
           - Maintained and ensured high levels of accuracy and consistency in evaluating search engine algorithm outputs.
@@ -178,50 +197,30 @@ params:
         date: "Expected: May 2026"
         GPA: "3.97 / 4.0"
         content: |-
-          - SNHU President's List: 2024 - 2025
-          
-          ### Relevant Coursework:
-
-          - **Applied Statistics for STEM (Python, Pandas, NumPy, SciPy)**: Leveraged Python libraries to analyze complex datasets and derive actionable insights. 
-
-          - **Structured Database Environments (SQL/MySQL)**: Designed and implemented relational databases, mastering complex SQL queries for data integrity and retrieval.  
-          - **Object Oriented Programming (Java)**: Engineered modular and reusable software components by applying core OOP principles (encapsulation, inheritance, polymorphism).  
-          - **Python Scripting**: Created automation scripts and utility applications to solve practical problems and streamline tasks.  
-          - **Data Structures and Algorithms**: Implemented and analyzed various data structures and algorithms to optimize solutions for complex computational problems.  
-          - **Foundation in C++ Programming**: Built efficient applications in C++, gaining experience in memory management and performance optimization.  
-          - **Operating Systems**: Explored core OS concepts like process scheduling, memory management, and concurrency to understand system-level interactions.  
-          - **Software Engineering Principles**: Collaboratively developed a software project using agile methodologies, managing the full development lifecycle from requirements to a functional prototype.  
-          - **Discrete Mathematics**: Applied logic, set theory, and graph theory to model computational problems.  
-          - **Linear Algebra**: Utilized vector spaces and matrix operations to solve systems and understand transformations fundamental to graphics and machine learning.  
+          - SNHU President's List: 2024 - 2026
+          #### Relevant Coursework:
+            - **Applied Statistics for STEM (Python, Pandas, NumPy, SciPy)**: Leveraged Python libraries to analyze complex datasets and derive actionable insights. 
+            - **Object Oriented Programming (Java)**: Engineered modular and reusable software components by applying core OOP principles (encapsulation, inheritance, polymorphism).  
+            - **Data Structures and Algorithms**: Implemented and analyzed various data structures and algorithms to optimize solutions for complex computational problems.  
+            - **Foundation in C++ Programming**: Built efficient applications in C++, gaining experience in memory management and performance optimization.  
+            - **Operating Systems**: Explored core OS concepts like process scheduling, memory management, and concurrency to understand system-level interactions.  
+            - **Software Engineering Principles**: Collaboratively developed a software project using agile methodologies, managing the full development lifecycle from requirements to a functional prototype.  
 
   achievements:
     enable: true
     title: "Leadership, Contributions & Honors"
     items:
       - title: "Key Contributor & Developer - Coding United Club @ SNHU"
-        content: "Spearheaded a major revamp of the Coding United club's GitHub presence. Designed, developed, and documented key resources including developer templates (Python, Docker), a central Club Hub, an 'Awesome Resources' list, a Club Project Guide website, the main club website, and an interactive CS Career Skill Explorer tool. Focused on improving member onboarding, resource accessibility, and fostering a collaborative environment."
+        content: "Spearheaded a major revitalization of the club's GitHub presence. Architected and documented core resources including developer templates (Python, Docker), a centralized Club Hub, and an interactive CS Career Skill Explorer. These initiatives significantly improved member onboarding and resource accessibility."
         url: "https://github.com/codingUnited"
 
-      - title: "Creator & Author of Multiple Project Guides"
-        content: "As a volunteer, developed multiple comprehensive, interactive web-based coding guides for the SNHU Computer Science program to assist fellow students. The linked guide breaks down complex requirements, explains core concepts, and provides a clear roadmap, aiming to simplify the learning process and support student success."
-        url: "https://cs210-project-guide.pages.dev/" 
-
-
-      - title: "SNHU Honor Roll" 
-        content: "Recognized on the SNHU Honor Roll for multiple terms due to sustained high academic achievement, including: 2025 C-2 (March - April), 2025 C-1 (January - March), 2024 C-6 (October - December), and 2024 C-5 (September - October)."
-        url: "https://meritpages.com/Johnathan-Swindell/8555123" 
-
-      - title: "Technical Workshop Lead" 
-        content: "Developing and delivering technical workshops for Coding United members on foundational topics like Git/GitHub, Python environments, and Docker basics, aimed at enhancing practical skills and peer-to-peer learning within the club."
+      - title: "Technical Workshop Lead"
+        content: "Designed and delivered technical workshops for members on foundational engineering skills, including Git/GitHub workflows, Python environment management, and Docker basics, fostering peer-to-peer learning."
         url: "https://github.com/orgs/codingUnited/repositories"
 
-      - title: "SNHU President's List" 
-        content: "Consistently achieved President's List honors for outstanding academic excellence during the Fall 2024 and Spring 2025 terms."
-        url: "https://meritpages.com/Johnathan-Swindell/8555123" 
-
-      - title: "Cyberleague Club Member"
-        content: "Collaborating with peers to analyze cybersecurity strategies and assisting in organizing club events and competitions, focusing on areas like network security and ethical hacking principles."
-        # url: ""
+      - title: "SNHU President's List"
+        content: "Consistently named to the President's List (2024–2026) for outstanding academic excellence, maintaining top-tier standing throughout all terms."
+        url: "https://meritpages.com/Johnathan-Swindell/8555123"
 
 
   projects:
