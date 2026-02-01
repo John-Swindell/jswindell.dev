@@ -1,7 +1,7 @@
 ---
 title: "Automated Onboarding Pipeline & Headless LMS"
 date: 2026-02-01
-image: "/images/projects/automated-onboarding-base.png"
+image: "/images/projects/automated-onboarding-base-final.png"
 description: ""
 tags: ["Python", "GitHub Actions", "AI", "Automation", "Airtable API", "DocuSign API", "JWT", "OpenAI API"]
 ---

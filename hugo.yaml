@@ -205,7 +205,7 @@ params:
       - title: "Creator & Author of Multiple Project Guides"
         content: "As a volunteer, developed multiple comprehensive, interactive web-based coding guides for the SNHU Computer Science program to assist fellow students. The linked guide breaks down complex requirements, explains core concepts, and provides a clear roadmap, aiming to simplify the learning process and support student success."
         url: "https://cs210-project-guide.pages.dev/" 
-      
+
 
       - title: "SNHU Honor Roll" 
         content: "Recognized on the SNHU Honor Roll for multiple terms due to sustained high academic achievement, including: 2025 C-2 (March - April), 2025 C-1 (January - March), 2024 C-6 (October - December), and 2024 C-5 (September - October)."
@@ -228,6 +228,25 @@ params:
     enable: true
     # title: "My Projects"
     items:
+      # --- Platform Engineering Project ---
+      - title: "Automated Onboarding Pipeline & Headless LMS"
+        content: "Architected a zero-touch hiring pipeline using Python micro-services to scale an internship cohort of 30+ engineers. The system orchestrates Airtable, DocuSign, and GitHub Actions to automate the entire lifecycle, from contract generation and signature verification to infrastructure provisioning, reducing administrative overhead by 90%."
+        image: "/images/projects/automated-onboarding-base-final.png"
+        featured:
+          name: "Read Architecture Breakdown"
+          link: "/blogs/automated-onboarding"
+        badges:
+          - "Python"
+          - "GitHub Actions"
+          - "Platform Engineering"
+          - "DocuSign API"
+          - "Airtable API"
+          - "OpenAI API"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/John-Swindell/automated-onboarding-pipeline"
+            tooltip: "View Source Code"
+
       # --- Machine Learning Project ---
       - title: "ML-Driven Quant Research Model"
         content: "A backtesting framework utilizing CatBoost and Anchored Walk-Forward Validation. Engineered to detect overfitting and validate potential alpha quickly via rigorous risk diagnostics (Sharpe, Sortino, Volatility Targeting)"
