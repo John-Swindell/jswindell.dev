@@ -1,15 +1,26 @@
 ---
 title: "The Birthday Bot: Async Scraping for a UX Engineer"
-date: 2026-01-30
-image: "/images/projects/discord-bot_upscayl.png"
+date: 2026-01-31
+image: "/images/projects/discord_bot_image_project.png"
 description: "How I built a non-blocking Python scraper as a gift for a friend, containerized it for 24/7 uptime, and helped him snag a rare variant."
 tags: ["Python", "Asyncio", "Docker", "Developer Experience", "Discord API"]
 ---
+{{< button link="https://jswindell.dev" >}}
+Back to Home Page
+{{< /button >}}
 
-######
->[*Click here to view the source code*](https://github.com/John-Swindell/comic-scraper-discord-bot)
+{{< button link="https://github.com/John-Swindell/comic-scraper-discord-bot" >}}
+View Source Code
+{{< /button >}}
 
----
+{{< button link="https://jswindell.dev/blogs" >}}
+View More Blogs
+{{< /button >}}
+
+<br>
+<br>
+<br>
+
 ### The Backstory
 This project wasn't built for a client, it was a birthday gift for a close friend.
 

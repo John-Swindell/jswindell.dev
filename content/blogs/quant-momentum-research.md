@@ -1,10 +1,25 @@
 ---
 title: "Machine Learning Research Framework: Crypto Momentum"
-date: 2026-01-30
+date: 2026-01-28
 image: "/images/projects/quant_tearsheet_thumb.png"
 description: "A robust backtesting engine built with CatBoost and QuantStats to stress-test volatility strategies against market benchmarks."
 tags: ["Machine Learning", "Python", "Quantitative Finance", "CatBoost", "Risk Analysis"]
 ---
+{{< button link="https://jswindell.dev" >}}
+Back to Home Page
+{{< /button >}}
+
+{{< button link="https://github.com/John-Swindell/machine-learning-research-model" >}}
+View Source Code
+{{< /button >}}
+
+{{< button link="https://jswindell.dev/blogs" >}}
+View More Blogs
+{{< /button >}}
+
+<br>
+<br>
+<br>
 
 ### The Objective
 In quantitative finance, the goal of a backtesting engine isn't just to validate winning strategies. It is to disqualify risky ones before capital is deployed. This project established a standardized research pipeline to rigorously evaluate momentum-based cryptocurrency strategies using gradient boosting.

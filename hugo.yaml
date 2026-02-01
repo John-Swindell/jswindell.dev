@@ -427,7 +427,7 @@ params:
       # facebook: ""
 
   listPages:
-    disableFeaturedImage: true
+    disableFeaturedImage: false
 
   singlePages:
     socialShare: true
