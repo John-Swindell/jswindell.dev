@@ -88,7 +88,7 @@ params:
 
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Hi  , my name is"
     title: "John Swindell."
     subtitle: "Technical Lead | CS Student"
     content: "Computer Science candidate architecting scalable data pipelines and automation systems. I translate complex requirements into production-grade infrastructure, with a focus on advancing in AI, ETL, and Cloud Architecture."
@@ -119,10 +119,10 @@ params:
     content: |-
       I’m a Technical Lead and Senior CS student who loves building scalable architecture from the ground up. I focus on systems that handle complexity, whether that's processing 250k+ daily crypto records or automating onboarding for a 30-person engineering cohort.
       
-      Currently, I lead infrastructure at Tekly Studio, managing the GCP and Python ETL pipelines behind our quantitative research. I believe in a 'fail-fast' approach and that good architecture is what separates a script from a system. I operate on Agile principles and am currently diving deeper into DevSecOps.
+      Currently, I lead infrastructure at Tekly Studio, managing the GCP and Python ETL pipelines behind our quantitative research. I believe in a fail-fast approach and that good architecture is what separates a script from a system. I operate on Agile principles and am currently diving deeper into DevSecOps.
     skills:
       enable: true
-      title: "Here are a few technologies I am learning and using:"
+      title: "Core Technologies:"
       items:
         - "Python (Pandas, NumPy, Google API)"
         - "Google Cloud Platform (GCS, Cloud Run)"
@@ -156,7 +156,7 @@ params:
         content: |
           Spearheaded the development of a survivorship-bias-free data pipeline for a Tekly Studio partner to support quantitative trading research.
           - ETL Architecture: Designed and implemented a scalable ETL framework that ingests, cleans, and transforms raw multi-source data (CoinGecko, DeFiLlama) into optimized Parquet datasets.
-          - Cost Optimization: Engineered a two-tier caching strategy that reduced external API costs by 90% while significantly increasing data throughput and availability.
+          - Cost Optimization: Engineered a two-tier caching strategy that reduced external API load by 90% while significantly increasing data throughput and availability.
           - Data Quality: Architected a Silver Layer validation framework to enforce schema integrity and data quality across 250k+ daily records.
           - Robust Ingestion: Developed resilient Python parsers to handle complex, nested JSON schemas and rate-limited API endpoints.
 
