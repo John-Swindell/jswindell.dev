@@ -141,7 +141,7 @@ params:
     title: "Professional Experience"
     items:
       - job: "Technical Lead"
-        company: "Tekly Studio LLC"
+        company: "Tekly Studio"
         date: "Dec 2025 - Present"
         content: |
           Selected to lead the Spring '26 engineering cohort and oversee critical data infrastructure following a successful tenure at Crypt0nest (a Tekly Studio partner).
@@ -175,7 +175,6 @@ params:
           - Promoted to Senior Server Administrator in the first year for demonstrating technical expertise and leadership.
           - Managed and optimized 16 servers across multiple regions, improving performance and reducing downtime.
           - Utilized Linux and Pterodactyl to maintain server infrastructure, troubleshooting issues and optimizing code.
-          - Collaborated with development teams to debug and optimize C# game plugins, enhancing user experience.
           - Acted as a key liaison for customer issues, ensuring satisfaction through problem resolution and communication.
       - job: "Server Administrator"
         company: "Rustynation LLC."
