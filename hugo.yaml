@@ -98,7 +98,7 @@ params:
     button:
       enable: true
       name: "Download Resume"
-      url: "/Johnanthan Swindell Resume.pdf"
+      url: "/Johnathan Swindell Resume.pdf"
       download: true
       newPage: false
     socialLinks:
